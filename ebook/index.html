@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 964 604 --><!--version 10.0.1.3024 --><!--type html --><!--mainFolder ./ --><!--content book -->
+<!--
+Copyright 2012 Mozilla Foundation
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Adobe CMap resources are covered by their own copyright but the same license:
+
+    Copyright 1990-2015 Adobe Systems Incorporated.
+
+See https://github.com/adobe-type-tools/cmap-resources
+-->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<meta name="msapplication-tap-highlight" content="no"/>
+	<title>Chapter 10 - Health Insurance - </title>
+	<link rel="stylesheet" href="data/css/viewer.css"/>
+	<script src="data/js/viewer.js"></script>
+	
+	<script src=lms.js></script>
+	<script>
+		if (document.addEventListener) // IE9+
+		{
+			var book = "eNqFVG1vozgQ/isW0uq+JCive5BvDjgJWwIRkPai0wo5xE24Uoxs0y7XVLpfsz9sf8kNL01uV63uC9jPjB/PzDPjF02lKmPaTLNOtFBMoOEA9dGK0UydkJPLUtA8YQBpPa2gRxamfzOpzf580SSsYDE1p/rI6BmToW6YX3sa+B9rfNgbj76+AiCBCvjHA3s8HRuj8cQcTozFwBwMBrD9PDXH5sgYTID/RKXLE5rdMiFTnmszJUrWwBsq5TMXB212TzMJWDo0wP6iETvG4U28wWF45wd2bDvY9Zex491i17GvuIvnxIUoohNDRUeGWA4JswN6phKlecKFYInS0SZjVDKkRIXokaa5DqF9cM8bLamZrsSKI16wHKlTKtGe84fZxxQbF1tk5bs2CYDokmjjb2HPavitWoSsBV0fg2/zc7xrCC6nhzQ//vjne+vm3wAIn562mcfYskgYOnPHdaJdbAUER+By50SrmlwwquoypCB5GhYCaBB7ollJFciAnjo53mPaBgHxIkhqSYAJ+oUJBWkzlJePeygJv292SQm1zRWqO+g9nqUf+bFH/oiAZMnr+jUc7Nv/HNkE5PanI4VgTykv5X+P2XY89/2bNQ5u4hXBbaHxoa4WmoM4j1Q8yHd8ozaeuxMoWfHyN8EQVKo+1kOKFs19b+fRvlQKagVhNNtfk9Y7/qV/EYweeQu+XRjGEZ6D4ZeYbLwLL4cOtOrglb8Nrvipu2DteNuIXPHHtn1ri+9FqxYPwfCF5vp5wfb6eU2FfsaFqFfV+UuZM/hk1RmXR/0cskLpZx/G4uzxJ/1ss6Tj8/zY30au49XCe1B9us9YrXfCYRhy1YXZ+XSpWT/Z6q65RLqBKqFPDeRt13MSfGqdAmJBh7m7Whtig+NfpVQo58+teevhW+wAiUviOfY8mIxOtx0vUUKhfVP23AyhRDzPqrbNKbpjewTdCs2tf8zkRC7pFEFFuc9SeeoGhZcKkr3P0hyaLqPVniYPSJZFwYVq+XYkjEgA6l1SrJiEZwIk1F7hMRVcwXOzEPzR4kUFXXV53O5hw0Q9h83DuRhNTdtc9E0yGfUHk8XvfcPAVn9iDMzFYvh5uphYcGMqm8HdQCwOFPkomuG9cAq4mwsWKhj1C8jyWjScJEzKdJ9mqarW/PBmf/0XTJ7t1A==";
+
+			document.addEventListener("DOMContentLoaded", function() {
+				PdfViewer.checkMobileIntegration(book);
+
+				var viewerInitCallback = function(viewer) {
+									(function(viewer){
+					var lms = iSpring.pdfviewer.LMS.instance();
+					lms.start(viewer);
+				
+					window.onunload = window.onbeforeunload = function()
+					{
+						lms.closeLms();
+					};
+				})(viewer)
+
+				};
+
+				var startupApplication = function(initViewerState) {
+					var fileOpenParams = {"type":"fileName","filePath":"data\/book.pdf"};
+					PdfViewer.open(fileOpenParams, document.body, book, viewerInitCallback, initViewerState);
+				};
+
+				(function(startupFunc) {
+					if (startupFunc)
+					{
+						startupFunc(startupApplication);
+					}
+					else
+					{
+						startupApplication();
+					}
+				})(				function(startupApplication) {
+					var params = {
+						docId: "",
+						flags: 0,
+						resumeMode: "always",  
+						tincan:
+						{
+							endPoint: "",
+							auth:
+							{
+								type: "",
+								key: "",
+								login: "",
+								password: "",
+								name: "",
+								email: ""
+							},
+							i18n:{
+				}
+						},
+						scorm2004:
+						{
+							edition: ""
+						}
+					};
+				
+					var lms = iSpring.pdfviewer.LMS.create("1.2", params);
+					lms.initialize(startupApplication);
+				}
+);
+			});
+		}
+		else
+		{
+			location.replace("data/html5-unsupported.html");
+		}
+	</script>
+</head>
+<body></body>
+</html>
